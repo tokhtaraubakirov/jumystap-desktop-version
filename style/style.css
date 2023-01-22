@@ -279,10 +279,13 @@ body {
     align-items: center;
 }
 
+.body__four__left__block {
+    margin-right: 10%;
+}
+
 .body__four__left__block img {
     width: 619px;
     height: 420px;
-    margin-right: 128px;
 }
 
 .body__four__right__block h1 {
@@ -564,5 +567,95 @@ body {
     .student {
         justify-content: start;
         padding-left: 12px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1280px){
+
+    /*---------------BODY-ONE------------------*/
+    .body__one {
+        padding-bottom: 8%;
+    }
+
+    .body__one__content {
+        display: flex;
+        flex-direction: column-reverse;  
+    }
+
+    .body__one__content .left-column {
+        margin-top: 9%;
+        text-align: center;
+    }
+
+    .right-column img {
+        width: 100%;
+        max-width: 590px;
+        height: auto;
+    }
+
+    /*---------------BODY-TWO------------------*/
+    .body__two__content .second-row {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .body__two__content .second-row .body__two__block:not(:last-child){
+        margin-bottom: 15%;
+    }
+
+    /*---------------BODY-THREE------------------*/
+    .body__three__content .body__three__block{
+        width: 100%;
+    }
+
+    .body__three__content .body__three__search__block {
+       display: block;
+       flex-direction: column;
+       align-items: start;
+       width: 100%;
+    }
+
+    .body__three__input__container {
+        margin-bottom: 8%;
+    }
+
+    .body__three__input__container input{
+        width: 100%;
+    }
+
+    /*---------------BODY-FOUR------------------*/
+
+    .body__four__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body__four__left__block {
+        margin: 0 auto;
+    }
+
+    .body__four__left__block img{
+        margin-right: 0;
+    }
+
+    .body__four__right__block {
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .body__four__right__block .body__four__btn{
+        margin: auto;
+    }
+
+    /*---------------FOOTER------------------*/
+
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__nav {
+        margin-bottom: 5%;
     }
 }
