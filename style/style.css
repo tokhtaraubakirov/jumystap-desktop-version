@@ -396,7 +396,7 @@ body {
 @media only screen and (max-width: 600px){
 
     .container {
-        padding: 0px 36px 0px 36px;
+        padding: 0px 20px 0px 20px;
     }
 
     /*---------------BODY-ONE------------------*/
@@ -433,7 +433,7 @@ body {
 
     .right-column img {
         width: 100%;
-        max-width: 312px;
+        max-width: 100%;
         height: auto;
     }
 
@@ -512,11 +512,14 @@ body {
         flex-direction: column;
     }
 
+    .body__four__left__block {
+        margin-right: 0;
+    }
+
     .body__four__left__block img {
         width: 100%;
-        max-width: 350px;
+        max-width: 100%;
         height: auto;
-        margin-right: 0;
     }
 
     .body__four__right__block {
