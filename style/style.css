@@ -396,7 +396,7 @@ body {
 @media only screen and (max-width: 600px){
 
     .container {
-        padding: 0px 18px 0px 18px;
+        padding: 0px 36px 0px 36px;
     }
 
     /*---------------BODY-ONE------------------*/
@@ -570,7 +570,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 1280px){
+@media only screen and (min-width: 601px) and (max-width: 1280px){
 
     /*---------------BODY-ONE------------------*/
     .body__one {
@@ -629,6 +629,7 @@ body {
     .body__four__content {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .body__four__left__block {
@@ -636,6 +637,9 @@ body {
     }
 
     .body__four__left__block img{
+        width: 100%;
+        max-width: 620px;
+        height: auto;
         margin-right: 0;
     }
 
